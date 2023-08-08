@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  #accueil, #profil, #competences, #projets, #contact {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 390px) {
+  #accueil, #profil, #competences, #projets, #contact {
+    font-size: 25%;
+  }
+}
+#accueil{
+  background-image: url("/img/photoacceuil.jpg");
+  }
+  #profil {
+    background: url("/img/photoprofil.jpg");
+  }
+  
+  #competences {
+    background: url("/img/photocompetence.jpg");
+  }
+  
+  #projets {
+    background: url("/img/photoprojets.jpg");
+  }
+  
+  #contact {
+    background: url("/img/photocontact.jpg");
+  }
+  #accueil, #profil, #competences, #projets, #contact {
+    display: flex;
+    height: 47.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+  }
+  
